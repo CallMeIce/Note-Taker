@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/CallMeIce/Note-Taker/issues"
   },
-  "homepage": "https://github.com/CallMeIce/Note-Taker#readme"
+  "homepage": "https://github.com/CallMeIce/Note-Taker#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
