@@ -10,7 +10,7 @@ router.get("/notes", (req, res) => {
 })
 
 
-router.post('/notes', (req,res) => {
+router.post('/notes', (req, res) => {
     let newID = uuidv4()
     let fullNote = {
         id: newID,
@@ -41,15 +41,3 @@ router.post('/notes', (req,res) => {
 })
 
 module.exports = router
-
-
-
-// GET Route for retrieving all the feedback
-// fb.get('/', (req, res) =>
-//   readFromFile('./db/feedback.json').then((data) => res.json(JSON.parse(data)))
-// );
-
-// // Import our modular routers for /tips and /feedback
-// const tipsRouter = require('./tips');
-// const feedbackRouter = require('./feedback');
-// const diagnostics = require('./diagnostics')
