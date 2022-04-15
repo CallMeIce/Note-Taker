@@ -25,3 +25,8 @@ Dom - https://github.com/dev-dominick
 ## License
 
 MIT License
+
+## Links
+
+Heroku -  https://sleepy-lowlands-88272.herokuapp.com/
+Github Repo -  https://github.com/CallMeIce/Note-Taker
